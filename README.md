@@ -11,7 +11,7 @@ page = Page(WIDTH, HEIGHT, PAGE_MARGIN)
 page.extract('YOUR-SAMPLE-HANDWRITING.jpg')
 ...
 with open('YOUR-TXT-FILE.txt') as f:
-	page.draw(f.read(), FONT_SIZE, COLOR)
+    page.draw(f.read(), FONT_SIZE, COLOR)
 page.save()
 ```
 ...and voila! You just wrote yourself a page of your lab report!
